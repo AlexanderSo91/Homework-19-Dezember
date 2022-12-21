@@ -2,29 +2,21 @@ package Homework;
 
 public class Author {
 
-    String authorName;
-    String authorSurname;
+    private String firstName;
+    private String lastNAme;
 
-
-    public Author(String authorName, String authorSurname) {
-
-        this.authorName = authorName;
-        this.authorSurname = authorSurname;
+    public Author(String firstName, String lastNAme) {
+        this.firstName = firstName;
+        this.lastNAme = lastNAme;
     }
 
-    public String getAuthorName () {
-        return this.authorName;
-    }
-    public String getAuthorSurname () {
-        return this.authorSurname;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public static void main(String[] args) {
-
-
+    public String getLastNAme() {
+        return lastNAme;
     }
+
 }
-
-
-
 
